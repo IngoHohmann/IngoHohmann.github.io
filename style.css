@@ -1,0 +1,92 @@
+body {
+  background-color:green;
+  text-align: center;
+}
+
+#body {
+  text-align: left;
+  width: 80%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border: 2px solid #800000;
+
+  box-shadow:4px 4px 7px #400000;
+}
+
+#header {
+	background-color: yellow;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	padding: 5px;
+}
+
+#page {
+  padding: 5px;
+  width: 75%;
+}
+
+#debug {
+  background-color: grey;
+  text-align: center;
+  padding: 1em;
+}
+
+textarea {
+  width: 90%;
+  height: 10em;
+}
+
+input {
+  width: 90%;
+}
+
+.sidenote {
+  padding: 3px;
+  text-align: left;
+  width: 15%;
+  background-color: white;
+  xmargin-left: auto;
+  xmargin-right: auto;
+
+  position: absolute;
+  left: 75%;
+  top: 4em;
+
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border: 2px solid #800000;
+
+  box-shadow:4px 4px 7px #400000;
+}
+
+.info {
+  font-size: smaller;
+  margin-top: 1em;
+}
+
+dummy {
+/* IE10+ */
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #3366FF 100%);
+
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #3366FF 100%);
+
+/* Opera */
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #3366FF 100%);
+
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(100, #3366FF));
+
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, grey 100%);
+
+/* W3C Markup */
+background-image: linear-gradient(to bottom, #FFFFFF 0%, grey 100%);
+}
+
