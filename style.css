@@ -1,5 +1,7 @@
 body {
-  background-color:green;
+  background-color: #dddddd;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
 }
 
@@ -7,15 +9,18 @@ body {
   text-align: left;
   width: 80%;
   background-color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
 
   border-radius: 7px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
-  border: 2px solid #800000;
+  border: 3px solid #800000;
 
-  box-shadow:4px 4px 7px #400000;
+  box-shadow: 4px 4px 7px #555555;
+
 }
 
 #header {
@@ -62,12 +67,59 @@ input {
   -webkit-border-radius: 7px;
   border: 2px solid #800000;
 
-  box-shadow:4px 4px 7px #400000;
+  box-shadow: 4px 4px 7px #400000;
 }
 
 .info {
   font-size: smaller;
   margin-top: 1em;
+}
+
+.map {
+	text-align: center;
+}
+
+p {
+	padding-left: 1em;
+}
+
+h1, h2, h3, h4 {
+	padding-left: 1em;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-right: 3em;
+	border-radius: 0px 7px 7px 0px;
+	-moz-border-radius: 0px 7px 7px 0px;
+	-webkit-border-radius: 0px 7px 7px 0px;
+}
+
+h1 {
+	background-color: #999999;
+	padding-left: 0px;
+	margin-left: 3em;
+	margin-right: 3em;
+	text-align: center;
+	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+}
+
+h2 {
+	background-color: #999999;
+}
+
+h3 {
+	background-color: #bbbbbb;
+	padding-left: 1em;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+h4 {
+	background-color: #cccccc;
+	padding-left: 1em;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 dummy {
